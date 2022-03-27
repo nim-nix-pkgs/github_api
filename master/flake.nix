@@ -11,6 +11,7 @@
   inputs.src-github_api-master.ref   = "refs/heads/master";
   inputs.src-github_api-master.owner = "watzon";
   inputs.src-github_api-master.repo  = "github-api-nim";
+  inputs.src-github_api-master.dir   = "";
   inputs.src-github_api-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
